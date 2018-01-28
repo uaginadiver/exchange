@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling:touch;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.header
+{margin-left:9%;
+margin-top:3%;}
+
+.modal
+{
+  box-sizing: border-box;
+  /* width:31%; */
+  min-width:240px;
+ height:330px;
+  float:left;
+  display: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7%;
+
+background: red;
+margin-top: 11%;
+
+text-align: center;}
+
+#loginwindow
+{display:inline-block;}
+
+#login
+{display: none;}
+
+.text
+{
+float:left;
+margin-left: 9%;
+/* width: 22%; */
+margin-top: 3%;
+text-align:left;
+}
+
+
+.text,.modal
+{width:330px;}
+
+
+
+@media screen and (max-width: 832px) {
+
+
+
+  .modal,.text
+  {
+
+    width:280px;
+
+}
+}
+
+@media screen and (max-width: 705px) {
+
+
+
+  .modal
+  {
+
+    width:250px;
+
+
+}
+
+.text
+{width:270px;}
+}
+
+
+@media screen and (max-width: 645px) {
+
+
+
+  .modal
+  {
+
+    margin-left: 45%;
+
+}
+
+
+}
+
+@media screen and (max-width: 634px) {
+
+
+
+  .modal
+  {
+
+    margin-left: 40%;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 624px) {
+
+
+
+  .modal
+  {
+
+    margin-left: 35%;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 424px) {
+
+
+
+  .modal
+  {
+
+    margin-left: 9%;
+
+}
+
+
+}
+
+
+
+
+
+::-webkit-input-placeholder {color:#c0392b;width:500px;}
+::-moz-placeholder          {color:#c0392b;width:500px;}
+:-moz-placeholder           {color:#c0392b;width:500px;}
+:-ms-input-placeholder      {color:#c0392b;width:500px;}
+
+#idvaluer
+{width:220px;
+margin-bottom: 10px;}
+
+.logos
+{display: block;
+margin-right: 6%;
+margin-left:6%;
+margin-top: 3%;
+}
+
+.logos::after
+{content: "";
+display: table;
+clear:both;}
+
+
+#btn1
+{
+display: none;}
+
+.cont
+{display: block;
+}
+
+.cont::after
+{
+  clear: both;
+  content:"";
+  display: table;
+}
+
+.text p
+{margin-bottom: 10px;}
+
+
+.modal button
+{margin-top: 260px;
+
+}
+
+#btn0,#btn1
+{margin-top:230px;}
+
+.logoicon
+{width: 7%;
+float: left;
+margin-right: 5px;}
+
+.logoiconrg
+{width: 7%;
+float: right;
+margin-right: 5px;}
+
+#lastimg
+{margin-right: 0;}
+
+
+
+.pml,.pmlr
+{width:30%;
+margin-left:3%;
+float:left;
+margin-top:20px;}
+
+.pmlicon
+{width:40%;}
+
+.footer
+{text-align: center;}
