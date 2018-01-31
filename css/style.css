@@ -417,6 +417,11 @@ display: none;}
 
 }
 
+.modal h2
+{color:#fbf7eb;
+margin-bottom:20px;
+margin-top:10px;}
+
 #btn0,#btn1
 {margin-top:230px;}
 
