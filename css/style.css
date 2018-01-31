@@ -41,7 +41,7 @@ width:360px;
   display: none;
   margin-left: 8%;
 
-
+color:#fbf7eb;
 background: #558c9d;
 
 
@@ -148,6 +148,7 @@ margin-left: 14%;}
     margin-top: 7%;
     width:340px;
     height:369px;
+
 }
 
 .text
@@ -180,18 +181,166 @@ padding-bottom:2%;}
 {margin-left:2%;}
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 765px) {
 
 
 
   .modal, .text
   {
 
-    position: relative;
-    left:15%;
-        margin-left:0;
-        width:280px;
+    width: 50%;
+        margin-left:25%;
+        margin-right: 25%;
+
       float: none;
+
+
+}
+
+.text
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.header
+{
+padding-left:25%;
+text-align: left;
+}
+
+
+}
+
+
+@media screen and (max-width: 688px) {
+
+
+
+  .modal, .text
+  {
+
+    width: 50%;
+        margin-left:25%;
+        margin-right: 25%;
+
+
+}
+
+.text
+{
+  font-size: 18px;
+
+}
+
+.header
+{
+padding-left:24%;
+
+}
+
+}
+
+@media screen and (max-width: 661px) {
+
+
+
+  .header
+  {
+  padding-left:20%;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 625px) {
+
+
+
+  .modal, .text
+  {
+
+    width: 60%;
+        margin-left:20%;
+        margin-right: 20%;
+
+
+}
+
+.text
+{
+  font-size: 18px;
+}
+
+.header
+{
+text-align: center;
+padding-left:0;
+
+}
+
+}
+
+
+@media screen and (max-width: 518px) {
+
+
+
+  .modal, .text
+  {
+
+    width: 70%;
+        margin-left:15%;
+        margin-right: 15%;
+
+
+}
+
+.text
+{
+  font-size: 18px;
+}
+
+}
+
+@media screen and (max-width: 440px) {
+
+
+
+  .modal, .text
+  {
+
+    width: 74%;
+        margin-left:13%;
+        margin-right: 13%;
+
+
+}
+
+.text
+{
+  font-size: 16px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 365px) {
+
+
+
+  .modal, .text
+  {
+
+    width: 80%;
+        margin-left:10%;
+        margin-right: 10%;
+
+
 
 
 }
@@ -212,14 +361,15 @@ padding-bottom:2%;}
 
 
 
-::-webkit-input-placeholder {color:#c0392b;width:500px;}
-::-moz-placeholder          {color:#c0392b;width:500px;}
-:-moz-placeholder           {color:#c0392b;width:500px;}
-:-ms-input-placeholder      {color:#c0392b;width:500px;}
+::-webkit-input-placeholder {color:#4893bb;width:500px;}
+::-moz-placeholder          {color:#4893bb;width:500px;}
+:-moz-placeholder           {color:#4893bb;width:500px;}
+:-ms-input-placeholder      {color:#4893bb;width:500px;}
 
 #idvaluer
 {width:220px;
-margin-bottom: 10px;}
+height:20px;
+margin-top: 30px;}
 
 .logos
 {display: block;
@@ -256,6 +406,14 @@ display: none;}
 
 .modal button
 {margin-top: 260px;
+  width:200px;
+  height:30px;
+  color: #558c9d;
+  background: #a6acc6;
+  border-radius:5%;
+  border: solid #a6acc6 1px;
+  font-size: 14px;
+  font-weight: 600;
 
 }
 
