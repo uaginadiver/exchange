@@ -43,7 +43,8 @@ width:360px;
 
 color:#fbf7eb;
 background: #558c9d;
-
+border-radius: 3%;
+border: solid #558c9d 1px;
 
 float:right;
 margin-right: 17%;
@@ -148,6 +149,7 @@ margin-left: 14%;}
     margin-top: 7%;
     width:340px;
     height:369px;
+
 
 }
 
