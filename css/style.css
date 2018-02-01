@@ -29,7 +29,7 @@ h2
 {margin-left:6%;
 padding-top:3%;
 padding-bottom:2%;
-text-align: center;}
+padding-left:35%;}
 
 .modal
 {
@@ -75,6 +75,104 @@ text-align:left;
 
 .text
 {width:350px;}
+
+
+@media screen and (min-width: 1500px)
+{
+  .modal
+  {
+  margin-right: 18%;
+  width: 400px;
+  height:454px;
+
+
+
+
+
+  }
+
+  .text
+  {margin-left: 18%;
+  font-size: 23px;
+width:390px;}
+
+.footer
+{font-size: 20px;}
+
+
+}
+
+
+@media screen and (min-width: 1700px)
+{
+  .modal
+  {
+  margin-right: 19%;
+  width: 420px;
+  height:454px;
+
+
+
+
+
+  }
+
+  .text
+  {margin-left: 19%;
+  font-size: 23px;
+width:410px;}
+
+.footer
+{font-size: 20px;}
+
+
+}
+
+
+
+@media screen and (min-width: 1900px)
+{
+  .modal
+  {
+  margin-right: 21%;
+  width: 430px;
+  height:494px;
+
+
+
+
+
+  }
+
+  .text
+  {margin-left: 21%;
+  font-size: 25px;
+width:420px;}
+
+.footer
+{font-size: 20px;}
+
+
+}
+
+}
+
+
+
+@media screen and (max-width: 1300px)
+{
+  .modal
+  {
+  margin-right: 15%;
+
+
+
+
+  }
+
+  .text
+  {margin-left: 15%;}
+}
 
 
 @media screen and (max-width: 1300px)
@@ -407,7 +505,7 @@ display: none;}
 
 
 .modal button
-{margin-top: 260px;
+{margin-top: 250px;
   width:200px;
   height:30px;
   color: #558c9d;
@@ -424,8 +522,8 @@ display: none;}
 margin-bottom:20px;
 margin-top:10px;}
 
-#btn0,#btn1
-{margin-top:230px;}
+#btn0,#btn1,.modal button
+{margin-top:250px;}
 
 .logoicon
 {width: 5%;
@@ -439,6 +537,51 @@ margin-right: 5px;}
 
 #lastimg
 {margin-right: 0;}
+
+@media screen and (min-width: 1500px)
+{
+  .logos
+  {
+  margin-right: 18%;
+  margin-left:18%;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1700px)
+{
+  .logos
+  {
+  margin-right: 19%;
+  margin-left:19%;
+  }
+
+
+
+
+}
+
+
+@media screen and (min-width: 1900px)
+{
+
+
+.logos
+{
+margin-right: 21%;
+margin-left:21%;
+}
+
+.modal button
+{margin-top: 340px;
+}
+
+#btn0,#btn1,.modal button
+{margin-top:300px;}
+
+}
 
 
 @media screen and (max-width: 1300px)
@@ -514,6 +657,80 @@ margin-right: 5px;}
 
 
 }
+
+
+@media screen and (max-width: 765px) {
+
+
+  .logos
+  {
+  margin-right: 25%;
+  margin-left:25%;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 625px) {
+
+
+
+  .logos
+  {
+  margin-right: 20%;
+  margin-left:20%;
+}
+
+}
+
+
+@media screen and (max-width: 518px) {
+
+
+
+  .logos
+  {
+  margin-right: 15%;
+  margin-left:15%;
+}
+
+}
+
+@media screen and (max-width: 440px) {
+
+
+
+  .logos
+  {
+  margin-right: 13%;
+  margin-left:13%;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 365px) {
+
+
+
+
+    .logos
+    {
+    margin-right: 10%;
+    margin-left:10%;
+  }
+
+
+
+
+}
+
+
 
 
 
