@@ -7,7 +7,7 @@ $(document).ready(function() {
         $('#btn0').click(function (h) {
 $('#btn1').show();
 $('#login').show();
-$('#btn0').hide();
+$('#login').text("ваш логин: "+$('#idvaluer').val());
 $('.loginform').hide();
 }
 

@@ -504,7 +504,7 @@ display: none;}
 {margin-bottom: 10px;}
 
 
-.modal button
+.modal button, #btn0
 {margin-top: 250px;
   width:200px;
   height:30px;
