@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Обменник</title>
   <link rel="stylesheet" type="text/css" href="css\style.css" >
+  <link rel="stylesheet" type="text/css" href="css\modals.css" >
     <script type="text/javascript" src=" http://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js\buttons.js"></script>
+
 
 
 
@@ -25,6 +26,38 @@
     <div class="content">
 
 <div class="cont">
+
+<a href="#openModal">Открыть модальное окно a</a>
+<a href="#openModalb">Открыть модальное окно b</a>
+
+  <div id="openModal" class="modalw">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Идёт загрузка пожалуйста подождите =)</h3>
+        <a href="#close" title="Close" class="close">×</a>
+      </div>
+      <div class="modal-body">
+        <img src="img\loader.gif">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="openModalb" class="modalw">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title">Ой, чтото пошло не так</h3>
+      <a href="#close" title="Close" class="close">×</a>
+    </div>
+    <div class="modal-body">
+      К сожалению, загрузка на на данный момент невозможна, <br>обратитесь в службу поддержки
+    </div>
+  </div>
+</div>
+</div>
 
 
 <div class="text">
@@ -136,5 +169,6 @@ wallet
 
 
 
-
+  <script src="js\buttons.js"></script>
 </body>
+</html>
