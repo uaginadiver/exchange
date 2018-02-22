@@ -14,7 +14,7 @@
 
         <form class="seller" action="/paymethods" method="post">
 
-          <input type="text" name="num" value="">
+          <input type="number" name="num" oninput="tokenConverter(this.value)">
 
            <div class="radios-as-buttons">
       <div>
@@ -32,5 +32,8 @@
 
 </form>
 
+ <span id="conv"></span>
+
+<script src="js\converter.js"></script>
 </body>
 </html>
